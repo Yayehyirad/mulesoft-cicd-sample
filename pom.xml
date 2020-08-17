@@ -52,7 +52,13 @@
             <version>1.1.5</version>
             <classifier>mule-plugin</classifier>
         </dependency>
-	</dependencies>
+		<dependency>
+            <groupId>com.mulesoft.connectors</groupId>
+            <artifactId>mule-salesforce-connector</artifactId>
+            <version>9.7.10</version>
+            <classifier>mule-plugin</classifier>
+        </dependency>
+    </dependencies>
 	<repositories>
           <repository>
             <id>anypoint-exchange-v2</id>
